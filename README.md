@@ -5,7 +5,10 @@ Password : 1234
 ## Buat Bootable  
 Extract  
 Buat bootable dengan bootable maker ([Rufus](https://rufus.ie/) atau [balenaEtcher](https://www.balena.io/etcher/))  
-Copy file dtb ke /dtb/armbian  
+Copy file dtb ke /dtb/amlogic
+Download kernel di sini [ophub](https://github.com/ophub)
+Copy folder amlogic ke dtb/amlogic
+
 
 note : dtb sudah disesuaikan untuk RAM 2gb, untuk ram 1gb tidak perlu copy dtb
 
@@ -22,6 +25,7 @@ Login Armbian -> input command
 ```yaml
 armbian-tf
 ```
+lalu pilih `Expand`
 
 ## Docker
 Install Docker   
