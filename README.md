@@ -35,6 +35,10 @@ armbian-docker
 ```
 
 ## Upgrade to Bookworm
-Ubah semua kata `bulleyes` ke bookworm yang ada di file `/etc/apt/source.list`
+Ubah semua kata `bulleyes` ke bookworm yang ada di file `/etc/apt/source.list`, lalu ketik perintah berikut
+`apt update`
+`apt upgrade --without-new-pkgs`
+`apt update`
+`apt full-upgrade`
   
 Terimakasih untuk [ophub](https://github.com/ophub) yang telah menyediakan file iso armbian untuk amlogic s905x
