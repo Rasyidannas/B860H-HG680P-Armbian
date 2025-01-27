@@ -33,6 +33,8 @@ Login Armbian -> input command
 ```yaml
 armbian-docker
 ```
-  
+
+## Upgrade to Bookworm
+Ubah semua kata `bulleyes` ke bookworm yang ada di file `/etc/apt/source.list`
   
 Terimakasih untuk [ophub](https://github.com/ophub) yang telah menyediakan file iso armbian untuk amlogic s905x
